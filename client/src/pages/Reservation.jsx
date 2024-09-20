@@ -45,7 +45,7 @@ function Reservation() {
 
   return (
     <div className="max-w-screen-lg mx-auto py-[150px] bg-white p-8">
-      <h2 className="text-2xl sm:text-3xl md:text-3xl text-center font-bold mb-6">Table Booking</h2>
+      <h2 className="text-4xl sm:text-4xl md:text-5xl text-center font-bold mb-10">Table Booking</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-2 gap-6">
         <div className="mb-4 col-span-1">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
