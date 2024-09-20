@@ -40,7 +40,7 @@ function About() {
           {/* Sri Lanka Section */}
           <section className="mb-16">
             <p className="text-lg text-gray-700 leading-relaxed mb-8 text-left">
-              Nestled in the heart of Sri Lanka, ABC Restaurant showcases the country’s rich culinary heritage. We offer a vibrant dining experience, capturing the authentic flavors of Sri Lankan cuisine, served with passion and respect for tradition.
+              Nestled in the heart of Sri Lanka , ABC Restaurant showcases the country’s rich culinary heritage. We offer a vibrant dining experience, capturing the authentic flavors of Sri Lankan cuisine, served with passion and respect for tradition.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex flex-col justify-center items-start text-lg text-gray-700">
