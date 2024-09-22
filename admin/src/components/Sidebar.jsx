@@ -63,21 +63,21 @@ const getLinksByUserRole = (userRole) => {
     ];
   } else if (userRole === "staff") {
     return [
-  
-      {
-        to: "/all-orders",
-        text: "Orders",
-        icon: <GiFoodTruck className="text-[20px]" />,
-      },
       {
         to: "/all-bookings",
         text: "Tables Booking",
-        icon: <MdOutlineTableRestaurant className="text-[20px]" />,
+        // icon: <MdOutlineTableRestaurant className="text-[20px]" />,
       },
+      {
+        to: "/all-orders",
+        text: "Orders",
+        // icon: <GiFoodTruck className="text-[20px]" />,
+      },
+
       {
         to: "/form-table",
         text: "Message",
-        icon: <TbMessageChatbotFilled className="text-[20px]" />,
+        // icon: <TbMessageChatbotFilled className="text-[20px]" />,
       },
     ];
   }

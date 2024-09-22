@@ -82,7 +82,7 @@ function Herobanner() {
     backgroundSize: "cover",
     backgroundPosition: "center center",
   }}
-  className="transition-bg flex flex-col justify-end md:gap-[188px] gap-[52px] md:h-[650px] h-[650px] w-full font-Manrope text-black"
+  className="transition-bg flex flex-col justify-end md:gap-[188px] gap-[52px] md:h-[550px] h-[550px] w-full font-Manrope text-black"
 >
   {/* Your content goes here */}
 </div>

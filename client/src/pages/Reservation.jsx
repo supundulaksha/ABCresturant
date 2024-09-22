@@ -162,11 +162,12 @@ function Reservation() {
   <button
     type="submit"
     disabled={isSubmitting}
-    className="bg-[#800000] text-white px-4 py-2 rounded disabled:bg-gray-400"
+    className="bg-[#800000] text-white px-4 py-2 rounded border-2 border-transparent transition-all duration-300 ease-in-out disabled:bg-gray-400 hover:bg-white hover:border-[#800000] hover:text-[#800000]"
   >
     {isSubmitting ? 'Submitting...' : 'Book Now'}
   </button>
 </div>
+
 
       </form>
     </div>
